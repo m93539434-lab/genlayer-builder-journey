@@ -1,34 +1,47 @@
-# Development Roadmap
+# GenLayer Development Roadmap
 
-This roadmap outlines my planned learning and development journey within the GenLayer ecosystem.
+## Project Vision
 
-## Phase 01 — Fundamentals
-- Understand GenLayer architecture.
-- Learn Intelligent Contract concepts.
-- Explore the GenLayer ecosystem.
+Build practical knowledge of GenLayer and develop a portfolio of tested Intelligent Contracts and decentralized applications.
 
-## Phase 02 — Development Setup
-- Prepare the development environment.
-- Explore essential tools and documentation.
-- Run initial experiments.
+## Development Phases
 
-## Phase 03 — First Intelligent Contract
-- Design a beginner-level contract.
-- Implement and test the contract.
-- Document the results.
+| Phase | Focus | Status |
+|---|---|---|
+| 01 | GenLayer Fundamentals | In Progress |
+| 02 | Development Environment Setup | Planned |
+| 03 | First Intelligent Contract | Planned |
+| 04 | AI-Powered dApp | Planned |
+| 05 | Advanced Development | Planned |
 
-## Phase 04 — AI dApp Development
-- Explore decentralized AI applications.
-- Build practical dApp experiments.
-- Test and improve implementations.
+## Roadmap Documentation
 
-## Phase 05 — Portfolio Development
-- Organize completed projects.
-- Improve technical documentation.
-- Publish development progress.
+Detailed phase plans are available in the `phases/` directory.
 
-## Workflow
+## Development Workflow
 
-Learn → Plan → Build → Test → Document → Commit
+1. Learn
+2. Research
+3. Plan
+4. Build
+5. Test
+6. Document
+7. Review
+8. Commit
 
-This roadmap will evolve as new skills and project milestones are achieved.
+## Project Principles
+
+- Follow official GenLayer documentation.
+- Build one phase at a time.
+- Test before considering a feature complete.
+- Keep experiments separate from verified implementations.
+- Document technical decisions and limitations.
+- Never expose private credentials.
+
+## Current Focus
+
+Complete GenLayer fundamentals and prepare for the official development environment setup.
+
+## Progress Policy
+
+A phase will only be marked complete after its completion criteria have been verified.
