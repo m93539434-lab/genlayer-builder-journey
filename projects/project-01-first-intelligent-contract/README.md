@@ -1,35 +1,63 @@
+
 # Project 01 — First Intelligent Contract
 
-## Objective
+## Project Overview
 
-Build my first GenLayer Intelligent Contract to understand its basic structure, execution, and testing workflow.
+This is my first GenLayer Intelligent Contract project.
 
-## Learning Goals
+The project demonstrates how to create, deploy, read, and update persistent contract storage using Python and GenLayer.
 
-- Understand Intelligent Contract fundamentals.
-- Learn the contract development structure.
-- Explore inputs and outputs.
-- Understand contract state.
-- Learn how to test contract behavior.
+## Contract
 
-## Planned Development Steps
+- Contract Name: Storage
+- File: storage.py
+- Network: GenLayer Studio
+- Chain ID: 61999
+- Initial Storage: Hello GenLayer
 
-1. Review official GenLayer documentation.
-2. Prepare the development environment.
-3. Create the first contract.
-4. Test basic contract functionality.
-5. Document the results.
+## Implemented Methods
 
-## Technology
+### 1. Constructor
 
-- GenLayer
-- Python-based contract development (subject to official toolchain requirements)
-- GenLayer testing tools
+Initializes the contract storage.
 
-## Status
+### 2. get_storage()
 
-Planned — Not yet implemented.
+Reads and returns the stored string.
 
-## Future Notes
+### 3. update_storage(new_storage)
 
-Source code, test results, and development notes will be added as implementation progresses.
+Updates the stored string.
+
+## Testing Results
+
+| Test | Result |
+|---|---|
+| Contract Deployment | PASS |
+| Initial Read | PASS |
+| Write Transaction | FINALIZED |
+| Updated Read | PASS |
+
+## Verified Storage Update
+
+Initial Value:
+
+Hello GenLayer
+
+Updated Value:
+
+My First GenLayer Update
+
+## Project Status
+
+COMPLETED — TESTS PASSED
+
+## Learning Outcomes
+
+- Intelligent Contract structure
+- Persistent storage
+- Read methods
+- Write methods
+- Contract deployment
+- Transaction finalization
+- Storage verification

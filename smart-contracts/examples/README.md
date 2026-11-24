@@ -1,31 +1,19 @@
+
 # Smart Contract Examples
 
-This directory contains practical examples of GenLayer Intelligent Contracts.
+This directory contains practical GenLayer Intelligent Contract examples.
 
-## Purpose
+## Available Examples
 
-To study, develop, and document smart contract examples while learning the GenLayer ecosystem.
+### 1. Storage Contract
 
-## Planned Examples
+File: storage.py
 
-- First Intelligent Contract
-- Basic Contract Logic
-- State Management
-- AI-Powered Contract Example
-- Validator Evaluation Example
+Features:
+- Persistent string storage
+- Constructor initialization
+- Read method
+- Write method
+- Storage update verification
 
-## Development Approach
-
-Each example will include:
-
-1. Objective
-2. Contract source code
-3. Explanation
-4. Testing notes
-5. Relevant official documentation
-
-## Progress
-
-Status: Planned
-
-Examples will be added progressively after studying the official GenLayer documentation.
+Status: COMPLETED
