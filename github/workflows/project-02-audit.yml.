@@ -34,7 +34,7 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install genlayer-test "genvm-linter==0.11.1rc2"
           python -m pip show genvm-linter
-
+          
       - name: AUDIT 1 - Python Syntax
         working-directory: projects/project-02-ai-powered-dapp
         run: |
